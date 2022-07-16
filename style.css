@@ -1,11 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
-
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
   margin: 0;
   display: flex;
   align-items: center;
@@ -13,4 +10,15 @@ body {
   justify-content: center;
   overflow: hidden;
   height: 100vh;
+}
+
+.background {
+  background: url('https://images.idgesg.net/images/article/2019/06/cso_password_elimination_abstract_passwords_by_bluebay2014_gettyimages-924698706_trashed_security_lock_in_garbage_can_by_porcorex_gettyimages-916512456_2400x1600-100798132-large.jpg?auto=webp&quality=85,70') no-repeat center center/cover;
+  position: absolute;
+  top: -20px;
+  bottom: -20px;
+  left: -20px;
+  right: -20px;
+  z-index: -1;
+  filter: blur(20px);
 }
